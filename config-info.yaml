@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: https://github.com/cdjg35/AKS-Landing-Zone-Accelerator
+  title: Sample Service
+  description: My first Backstage catalog item.
+  annotations:
+    github.com/project-slug: github.com/cdjg35
+spec:
+  type: service
+  owner: user:cdjg35
+  lifecycle: experimental
